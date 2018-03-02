@@ -11,5 +11,5 @@ daemonlize.o: daemonlize.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
-	rm -f *.i
+	rm -f daemonlize.o
 	rm -f $(TARGETS)
